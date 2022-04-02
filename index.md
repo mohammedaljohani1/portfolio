@@ -2,6 +2,22 @@
 # About
 # Skills
 # Contacts
+<div class="header">
+          <div class="container">
+            <div id="logo">
+                <img src="images.jpg" alt="logo" width="180"
+                height="68">
+            </div>
+            <ul class="nav">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About us</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#experience">Working Experience</a></li>
+               <li><a href="#projects">My Projects</a></li>
+              <li><a href="#contact">Contact us</a></li>
+            </ul>
+          </div>
+        </div>
 
 <section id="about"></section>
 <style>
