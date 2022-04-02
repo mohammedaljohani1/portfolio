@@ -3,21 +3,8 @@
 # Skills
 # Contacts
 
-          <div class="header">
-          <div class="container">
-            <ul class="nav">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="aboutus.html">About us</a></li>
-              <li><a href="menu.html">Menu</a></li>
-              <li><a href="gallery.html">Gallery</a></li>
-              <li><a href="contact.html">Contact us</a></li>
-            </ul>
-          </div>
-        </div>
-    
         
-  
-
+   
 <section id="about"></section>
 <style>
     .header {
