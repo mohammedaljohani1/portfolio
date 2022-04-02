@@ -18,7 +18,7 @@
             </ul>
           </div>
         </div>
-      </div>
+        
   
 
 <section id="about"></section>
