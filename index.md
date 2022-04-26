@@ -2,8 +2,7 @@
 # About
 # Skills
 # Contacts
-<html>
-    <body>
+
     
  
 <section id="about"></section>
