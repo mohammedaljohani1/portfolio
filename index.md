@@ -221,9 +221,7 @@ for (let i = 0; i < accordionHeader.length; i++) {
         }
         
     </style>  
-    </body>
-        </html> 
-
+   
 
 
 
