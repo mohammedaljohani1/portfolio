@@ -4,7 +4,7 @@
 # Contacts
 
         
- div>Portfolio Views:</div>
+ <div>Portfolio Views:</div>
     <div class="view-btn"></div>
     <script>
       var counterContainer = document.querySelector(".view-btn");
