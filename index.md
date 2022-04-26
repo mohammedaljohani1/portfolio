@@ -3,8 +3,8 @@
 # Skills
 # Contacts
 
-        
- <div>Portfolio Views:</div>
+    <section id=counter>
+    <div>Portfolio Views:</div>
     <div class="view-btn"></div>
     <script>
       var counterContainer = document.querySelector(".view-btn");
@@ -42,6 +42,8 @@
         }
         
     </style>
+    </secction>    
+ 
 <section id="about"></section>
 <style>
     .header {
