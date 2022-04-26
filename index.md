@@ -2,7 +2,8 @@
 # About
 # Skills
 # Contacts
-
+<html>
+    <body>
     <section id=counter>
     <div>Portfolio Views:</div>
     <div class="view-btn"></div>
@@ -220,6 +221,8 @@ for (let i = 0; i < accordionHeader.length; i++) {
 }
 
 </script>
+    </body>
+        </html> 
 
 
 
