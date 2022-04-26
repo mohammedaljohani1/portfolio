@@ -4,7 +4,44 @@
 # Contacts
 
         
-   
+ div>Portfolio Views:</div>
+    <div class="view-btn"></div>
+    <script>
+      var counterContainer = document.querySelector(".view-btn");
+      var viewCount = localStorage.getItem("portfolio_view");
+
+      // Check if portfolio view exists in local storage
+      if (viewCount) {
+        viewCount = Number(viewCount) + 1;
+        localStorage.setItem("portfolio_view", viewCount);
+      } else {
+        viewCount = 1;
+        localStorage.setItem("portfolio_view", 1);
+      }
+      counterContainer.innerHTML = "Views: " + viewCount;
+    </script>
+    <style>
+      /* Style the counter */
+        .view-btn {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+        }
+        /* Styles for website counter container */
+        .view-btn {
+          background-color: #1267e7;
+          height: 50px;
+          width: 180px;
+          font-weight: 900;
+          font-size: 27px;
+          margin-top: 10px;
+          color: white;
+          border-radius: 10px;
+          box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+        
+    </style>
 <section id="about"></section>
 <style>
     .header {
