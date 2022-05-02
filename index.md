@@ -1,7 +1,4 @@
-# Home
-# About
-# Skills
-# Contacts
+
  <nav class="navbar">
         <div class="max-width">
             <div class="logo"><a href="#" class="hire about-img" style="padding: 20px; border-radius: 10px;">Mohammmed <span>Alijohani</span></a></div>
