@@ -20,6 +20,23 @@
         </div>
     </nav>
 	<section id="blank"></section>
+	<section id=counter>
+    <div>Portfolio Views:</div>
+    <div class="view-btn"></div>
+    <script>
+      var counterContainer = document.querySelector(".view-btn");
+      var viewCount = localStorage.getItem("portfolio_view");
+
+      // Check if portfolio view exists in local storage
+      if (viewCount) {
+        viewCount = Number(viewCount) + 1;
+        localStorage.setItem("portfolio_view", viewCount);
+      } else {
+        viewCount = 1;
+        localStorage.setItem("portfolio_view", 1);
+      }
+      counterContainer.innerHTML = "Views: " + viewCount;
+    </script>
     <section class="about" id="about">
         <div class="max-width">
             <h2 class="title">About Me</h2>
@@ -348,23 +365,7 @@ for (let i = 0; i < accordionHeader.length; i++) {
 }
 
 </script>
-    <section id=counter>
-    <div>Portfolio Views:</div>
-    <div class="view-btn"></div>
-    <script>
-      var counterContainer = document.querySelector(".view-btn");
-      var viewCount = localStorage.getItem("portfolio_view");
-
-      // Check if portfolio view exists in local storage
-      if (viewCount) {
-        viewCount = Number(viewCount) + 1;
-        localStorage.setItem("portfolio_view", viewCount);
-      } else {
-        viewCount = 1;
-        localStorage.setItem("portfolio_view", 1);
-      }
-      counterContainer.innerHTML = "Views: " + viewCount;
-    </script>
+    
     <style>
       /* Style the counter */
         .view-btn {
