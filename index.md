@@ -16,8 +16,8 @@
             </div>
         </div>
     </nav>
-    <!-- about section -->
-    <div class="about" id="about">
+   
+    <section class="about" id="about">
         <div class="max-width">
             <h2 class="title">About Me</h2>
             <div class="about-content">
@@ -28,7 +28,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
  
 
