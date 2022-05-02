@@ -104,10 +104,9 @@ ul.nav li a {
             <div class="logo"><a href="#" class="hire about-img" style="padding: 20px; border-radius: 10px;">Mohammmed <span>Alijohani</span></a></div>
             <ul class="menu about-img" style="padding: 20px; border-radius: 10px;">
                 <li><a href="#home" class="menu-btn hire">Home</a></li>
-                <li><a href="#about" class="menu-btn hire">About</a></li>
-                <li><a href="#services" class="menu-btn hire">Services</a></li>
+		    <li><a href="#about" class="menu-btn hire">About</a></li>
                 <li><a href="#skills" class="menu-btn hire">Skills</a></li>
-                <li><a href="#experience" class="menu-btn hire">Work Experience</a></li>
+                <li><a href="#work-experience" class="menu-btn hire">Work Experience</a></li>
 		 <li><a href="#education" class="menu-btn hire">Education</a></li>
                 <li><a href="#contact" class="menu-btn hire">Contact</a></li>
             </ul>
@@ -316,7 +315,7 @@ ul.nav li a {
                             <i class="fas fa-envelope"></i>
                             <div class="info">
                                 <div class="head">Email</div>
-                                <div class="sub-title">mohammmeddaljhan1@gmail.com</div>
+                                <div class="sub-title">mohammedalojhan@gmail.com</div>
                             </div>
                         </div>
                     </div>
