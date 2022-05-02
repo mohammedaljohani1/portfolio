@@ -116,12 +116,7 @@ ul.nav li a {
         }
 /* skills section styling */
 
-.skills .title::after{
-    content: "Services provided by him";
-}
-.skills .skills-content .column{
-    width: calc(50% - 30px);
-}
+
 .skills .skills-content .left .text{
     font-size: 20px;
     font-weight: 600;
