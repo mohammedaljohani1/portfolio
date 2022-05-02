@@ -18,6 +18,30 @@
             </div>
         </div>
     </nav>
+    <!-- about section -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About Me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="https://web-statics.fff.fr/img/player_default_avatar.jpg" alt="" class="about-img" style="border-radius: 10px;"><style>
+                  .about-img:hover{
+                    box-shadow: 10px 10px 15px 5px rgba(1,1,1,100);
+                    transform: rotate(5deg);
+                   
+                    transition: 0.3s;      
+                  }              
+                  </style>
+                </div>
+                <div class="column right about-img" style="padding: 20px; border-radius: 10px;">
+                    <div class="text">He is a Passionate <span class="typing-2"></span></div>
+                    <p>A self taught programmer who is a Passionate contributor towards communities, Open Source & Hackathons, Who is Pursuing Knowledge to excel in future endeavor and helping people to enhance there learnings through providing them with practical experience and Knowledge. He is an Author at <b>freecodecamp.org</b>'s Publications. He is currently an 162nd event ambassador at <b>deeplearning.ai</b> in the world and also a Mozilla Fest Facilitator. He is a founder, Organiser and a Speaker at Programmers Universal Group <b>( official website:- https://www.pugroups.in )</b>b>. He is an official volunteer at Google Developer Group Chandigarh, Progate and Tensorflow User group Chandigarh. He is professionally a programmer, front end Web developer and an Artist. He is also a Youtuber where He shares his knowledge with everyone. He is also an open source contributor and Google Crowdsource Top contributor. He has also done many contributions in various communities. He was also selected as a share captain at Google Educator Group Ahemdabad and Pune. He was also in the list of top 10 Campus Ambassador at Developer Student Clubs Week of Wonders ( a week long national event ).</p>
+                    <a href="#" class="about-img">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
   <style>
  /* navbar styling */
 .navbar{
@@ -32,11 +56,7 @@
     padding: 15px 0;
     background: crimson;
 }
-.navbar .max-width{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+
 .navbar .logo .hire{
     color: #fff;
     font-size: 35px;
@@ -60,13 +80,7 @@
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
-}
-.navbar .menu li .hire:hover{
-    color: crimson;
-}
-.navbar.sticky .menu li a:hover{
-    color: #fff;
-}
+
 
 /* menu btn styling */
 .menu-btn{
