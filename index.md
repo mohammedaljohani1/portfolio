@@ -26,18 +26,13 @@
             <div class="about-content">
                 <div class="column right about-img" style="padding: 20px; border-radius: 10px;">
                     <div class="text">He is a Passionate <span class="typing-2"></span></div>
-                    <p></p>
+                    <p>A self-taught programmer who is a Passionate contributor to communities, Open Source & Hackathons, Pursuing Knowledge to excel in future endeavors and helping people enhance their learnings by providing them with practical experience and Knowledge. He is currently the 162nd event ambassador at deeplearning.ai in the world and also a Mozilla Fest Facilitator. He is a founder, Organiser, and Speaker at Programmers Universal Group . He is an official volunteer at Google Developer Group Chandigarh, Progate, and Tensorflow User group Chandigarh. He is professionally a programmer, front-end Web developer, and an Artist. He is also a Youtuber where shares his knowledge with everyone. He is also an open-source contributor and Google Crowdsource Top contributor. He has also done many contributions to various communities. He was also selected as a share captain at Google Educator Group Ahmedabad and Pune. He was also in the list of top 10 Campus Ambassador at Developer Student Clubs Week of Wonders ( a week long national event )</p>
                     <a href="#" class="about-img">Download Resume</a>
                 </div>
             </div>
         </div>
     </section>
-</body>
-</html>
- 
-    
-
-  <!-- skills section start -->
+	<!-- skills section start -->
     <section class="skills" id="skills">
         <div class="max-width">
             <h2 class="title">My skills</h2>
@@ -170,6 +165,12 @@
             </div>
         </div>
     </section>
+</body>
+</html>
+ 
+    
+
+  
 <style>
     .header {
   line-height: 80px;
