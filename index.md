@@ -31,7 +31,7 @@
     </section>
 
  
-<section id="about"></section>
+
 <style>
     .header {
   line-height: 80px;
