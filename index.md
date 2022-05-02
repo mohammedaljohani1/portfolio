@@ -1,64 +1,21 @@
 <html lang="en">
 <head>
 <style>
-    .header {
-  line-height: 80px;
-  width: 100%;
-  transition: line-height 0.2s linear, box-shadow 0.2s linear;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 100;
-  background: rgba(245, 245, 245, 0.97);
+/* Style the Navbar */
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
 }
-
-.header.small {
-  line-height: 50px;
-  box-shadow: 0px 1px 3px 0px rgba(50, 50, 50, 0.8);
+.navbar .menu li .hire{
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
 }
-
-.header.small > .container > #logo {
-  height: 40px;
-}
-
-#logo {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: red;
-  float: left;
-  height: 40px;
-  width: 170px;
-  margin-left: 5px;
-}
-
-ul.nav {
-  float: right;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-ul.nav li {
-  float: left;
-  position: relative;
-}
-
-ul.nav li a {
-  transition: color 0.2s linear;
-  font-size: 18px;
-}
-
-ul.nav li:hover a {
-  color: red;
-}
-
-ul.nav li a {
-  padding: 21px;
-  color: initial;
-  text-decoration: initial;
-}
-    .accordion {
+/* Style the accordion */
+  .accordion {
         cursor: pointer;
         padding: 18px;
         width: 100%;
@@ -292,11 +249,13 @@ ul.nav li a {
 
 
 </style>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+ <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 <body>
 	<nav class="navbar">
         <div class="max-width">
-            <div class="logo"><a href="#" class="hire about-img" style="padding: 20px; border-radius: 10px;">Mohammmed <span>Alijohani</span></a></div>
+            <div class="logo"><a href="#" class="hire about-img" style="padding: 20px; border-radius: 10px;">Mohammed <span>Aljohani</span></a></div>
             <ul class="menu about-img" style="padding: 20px; border-radius: 10px;">
                 <li><a href="#home" class="menu-btn hire">Home</a></li>
 		    <li><a href="#about" class="menu-btn hire">About</a></li>
