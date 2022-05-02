@@ -302,21 +302,21 @@ ul.nav li a {
                             <i class="fas fa-user"></i>
                             <div class="info">
                                 <div class="head">Name</div>
-                                <div class="sub-title">Pulkit Singh</div>
+                                <div class="sub-title">Mohammed Aljohan1</div>
                             </div>
                         </div>
                         <div class="row">
                             <i class="fas fa-map-marker-alt"></i>
                             <div class="info">
                                 <div class="head">Address</div>
-                                <div class="sub-title">Navi Mumbai, Maharashtra, India</div>
+                                <div class="sub-title">Newyork, USA</div>
                             </div>
                         </div>
                         <div class="row">
                             <i class="fas fa-envelope"></i>
                             <div class="info">
                                 <div class="head">Email</div>
-                                <div class="sub-title">singh.pulkit.0076@gmail.com</div>
+                                <div class="sub-title">mohammmeddaljhan1@gmail.com</div>
                             </div>
                         </div>
                     </div>
