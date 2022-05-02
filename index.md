@@ -114,6 +114,89 @@ ul.nav li a {
           border-radius: 10px;
           box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
         }
+/* skills section styling */
+
+.skills .title::after{
+    content: "Services provided by him";
+}
+.skills .skills-content .column{
+    width: calc(50% - 30px);
+}
+.skills .skills-content .left .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.skills .skills-content .left p{
+    text-align: justify;
+}
+.skills .skills-content .left a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.skills .skills-content .left a:hover{
+    color: crimson;
+    background: none;
+}
+.skills .skills-content .right .bars{
+    margin-bottom: 15px;
+}
+.skills .skills-content .right .info{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills .skills-content .right span{
+    font-weight: 500;
+    font-size: 18px;
+}
+.skills .skills-content .right .line{
+    height: 5px;
+    width: 100%;
+    background: lightgrey;
+    position: relative;
+}
+.skills .skills-content .right .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: crimson;
+}
+.skills-content .right .html::before{
+    width: 100%;
+}
+.skills-content .right .css::before{
+    width: 80%;
+}
+.skills-content .right .py::before{
+    width: 70%;
+}
+.skills-content .right .cc::before{
+    width: 50%;
+}
+.skills-content .right .opensource::before{
+    width: 75%;
+}
+.skills-content .right .adpi::before{
+    width: 80%;
+}
+.skills-content .right .ai::before{
+    width: 25%;
+}
+.skills-content .right .bld::before{
+    width: 50%;
+}
 
 </style>
 </head>
