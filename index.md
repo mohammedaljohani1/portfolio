@@ -453,7 +453,7 @@
                             <i class="fas fa-user"></i>
                             <div class="info">
                                 <div class="head">Name:</div>
-                                <div class="sub-title">Mohammed Aljohan1</div>
+                                <div class="sub-title">Mohammed Aljohani</div>
                             </div>
                         </div>
                         <div class="row">
