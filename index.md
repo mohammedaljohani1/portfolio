@@ -333,12 +333,11 @@ ul.nav li a {
             <h2 class="title">About Me</h2>
             <div class="about-content">
                 <div class="column right about-img" style="padding: 20px; border-radius: 10px;">
-                    <div class="text">He is a Passionate <span class="typing-2"></span></div>
-                    <p>A self-taught programmer who is a Passionate contributor to communities, Open Source & Hackathons, Pursuing Knowledge to excel in future endeavors and helping people enhance their learnings by providing them with practical experience and Knowledge. He is currently the 162nd event ambassador at deeplearning.ai in the world and also a Mozilla Fest Facilitator. He is a founder, Organiser, and Speaker at Programmers Universal Group . He is an official volunteer at Google Developer Group Chandigarh, Progate, and Tensorflow User group Chandigarh. He is professionally a programmer, front-end Web developer, and an Artist. He is also a Youtuber where shares his knowledge with everyone. He is also an open-source contributor and Google Crowdsource Top contributor. He has also done many contributions to various communities. He was also selected as a share captain at Google Educator Group Ahmedabad and Pune. He was also in the list of top 10 Campus Ambassador at Developer Student Clubs Week of Wonders ( a week long national event )</p>
+                    <p>I build highly scalable event driven microservices. I enjoy coding in React, Node, Typescript and Laravel. I have experience deploying applications on serverless architectures using Cloud Functions / Cloud Run. I'm familiar with Pub/Sub, TDD, CICD and Docker on GCP. I excel at trying out solutions, architecting, figuring out technical problems as well as balancing the right tradeoffs and reducing infrastructure costs.</p>
                     <a href="#" class="about-img">Download Resume</a>
                 </div>
             </div>
-        </div>
+        </div>I build highly scalable event driven microservices. I enjoy coding in React, Node, Typescript and Laravel. I have experience deploying applications on serverless architectures using Cloud Functions / Cloud Run. I'm familiar with Pub/Sub, TDD, CICD and Docker on GCP. I excel at trying out solutions, architecting, figuring out technical problems as well as balancing the right tradeoffs and reducing infrastructure costs.
     </section>
 	<!-- skills section start -->
     <section class="skills" id="skills">
@@ -494,21 +493,21 @@ ul.nav li a {
                         <div class="row">
                             <i class="fas fa-user"></i>
                             <div class="info">
-                                <div class="head">Name</div>
+                                <div class="head">Name:</div>
                                 <div class="sub-title">Mohammed Aljohan1</div>
                             </div>
                         </div>
                         <div class="row">
                             <i class="fas fa-map-marker-alt"></i>
                             <div class="info">
-                                <div class="head">Address</div>
+                                <div class="head">Address:</div>
                                 <div class="sub-title">Newyork, USA</div>
                             </div>
                         </div>
                         <div class="row">
                             <i class="fas fa-envelope"></i>
                             <div class="info">
-                                <div class="head">Email</div>
+                                <div class="head">Email:</div>
                                 <div class="sub-title">mohammedalojhan@gmail.com</div>
                             </div>
                         </div>
