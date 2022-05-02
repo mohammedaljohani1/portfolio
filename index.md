@@ -95,6 +95,25 @@ ul.nav li a {
     .active, .accordion:hover {
         background-color: #ccc;
     }
+/* Style the counter */
+        .view-btn {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+        }
+        /* Styles for website counter container */
+        .view-btn {
+          background-color: #1267e7;
+          height: 50px;
+          width: 180px;
+          font-weight: 900;
+          font-size: 27px;
+          margin-top: 10px;
+          color: white;
+          border-radius: 10px;
+          box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
 
 </style>
 </head>
@@ -345,14 +364,6 @@ ul.nav li a {
             </div>
         </div>
     </section>
-</body>
-</html>
- 
-    
-
-  
-
-
 <script>
   const accordionHeader = document.getElementsByClassName('accordion-header');
   const accordionContent = document.getElementsByClassName('accordion-content');
@@ -366,28 +377,16 @@ for (let i = 0; i < accordionHeader.length; i++) {
 
 </script>
     
-    <style>
-      /* Style the counter */
-        .view-btn {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          flex-direction: column;
-        }
-        /* Styles for website counter container */
-        .view-btn {
-          background-color: #1267e7;
-          height: 50px;
-          width: 180px;
-          font-weight: 900;
-          font-size: 27px;
-          margin-top: 10px;
-          color: white;
-          border-radius: 10px;
-          box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-        }
-        
-    </style>  
+</body>
+</html>
+ 
+    
+
+  
+
+
+
+   
    
 
 
