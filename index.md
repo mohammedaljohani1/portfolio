@@ -337,7 +337,7 @@ ul.nav li a {
                     <a href="#" class="about-img">Download Resume</a>
                 </div>
             </div>
-        </div>I build highly scalable event driven microservices. I enjoy coding in React, Node, Typescript and Laravel. I have experience deploying applications on serverless architectures using Cloud Functions / Cloud Run. I'm familiar with Pub/Sub, TDD, CICD and Docker on GCP. I excel at trying out solutions, architecting, figuring out technical problems as well as balancing the right tradeoffs and reducing infrastructure costs.
+        </div>
     </section>
 	<!-- skills section start -->
     <section class="skills" id="skills">
@@ -405,7 +405,7 @@ ul.nav li a {
                         <div class="line ai"></div>
 			<div class="bars">
                         <div class="info">
-                            <span>Blender</span>
+                            <span>React JS</span>
                             <span>50%</span>
                         </div>
                         <div class="line bld"></div>
