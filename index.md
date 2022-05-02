@@ -1,5 +1,4 @@
 
- 
  <nav class="navbar">
         <div class="max-width">
             <div class="logo"><a href="#" class="hire about-img" style="padding: 20px; border-radius: 10px;">Mohammmed <span>Alijohani</span></a></div>
@@ -16,7 +15,6 @@
             </div>
         </div>
     </nav>
-   
     <section class="about" id="about">
         <div class="max-width">
             <h2 class="title">About Me</h2>
