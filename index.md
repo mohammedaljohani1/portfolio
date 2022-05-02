@@ -32,8 +32,6 @@
   <style>
  /* navbar styling */
 .navbar{
-    width: 100%;
-    z-index: 999;
     padding: 30px 0;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
