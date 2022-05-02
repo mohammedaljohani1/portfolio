@@ -1,5 +1,102 @@
 <html lang="en">
 <head>
+<style>
+    .header {
+  line-height: 80px;
+  width: 100%;
+  transition: line-height 0.2s linear, box-shadow 0.2s linear;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background: rgba(245, 245, 245, 0.97);
+}
+
+.header.small {
+  line-height: 50px;
+  box-shadow: 0px 1px 3px 0px rgba(50, 50, 50, 0.8);
+}
+
+.header.small > .container > #logo {
+  height: 40px;
+}
+
+#logo {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: red;
+  float: left;
+  height: 40px;
+  width: 170px;
+  margin-left: 5px;
+}
+
+ul.nav {
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.nav li {
+  float: left;
+  position: relative;
+}
+
+ul.nav li a {
+  transition: color 0.2s linear;
+  font-size: 18px;
+}
+
+ul.nav li:hover a {
+  color: red;
+}
+
+ul.nav li a {
+  padding: 21px;
+  color: initial;
+  text-decoration: initial;
+}
+    .accordion {
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: 1px solid #000;
+        border-bottom: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+        max-width: 500px;
+    }
+    .accordion:last-child{
+        border-bottom: 1px solid #000;
+    }
+    .accordion-header {
+        display: flex;
+        padding: 16px;
+        cursor: pointer;
+        
+    }
+    .accordion-icon {
+        width: 16px;
+        color: #C00;
+    }
+    .accordion-title {
+        flex: 1;
+    }
+    .accordion-content {
+        padding: 16px;
+    }
+    .accordion-content {
+        display: none;
+    }
+    .active, .accordion:hover {
+        background-color: #ccc;
+    }
+
+</style>
 </head>
 <body>
 	<nav class="navbar">
@@ -255,103 +352,7 @@
     
 
   
-<style>
-    .header {
-  line-height: 80px;
-  width: 100%;
-  transition: line-height 0.2s linear, box-shadow 0.2s linear;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 100;
-  background: rgba(245, 245, 245, 0.97);
-}
 
-.header.small {
-  line-height: 50px;
-  box-shadow: 0px 1px 3px 0px rgba(50, 50, 50, 0.8);
-}
-
-.header.small > .container > #logo {
-  height: 40px;
-}
-
-#logo {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: red;
-  float: left;
-  height: 40px;
-  width: 170px;
-  margin-left: 5px;
-}
-
-ul.nav {
-  float: right;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-ul.nav li {
-  float: left;
-  position: relative;
-}
-
-ul.nav li a {
-  transition: color 0.2s linear;
-  font-size: 18px;
-}
-
-ul.nav li:hover a {
-  color: red;
-}
-
-ul.nav li a {
-  padding: 21px;
-  color: initial;
-  text-decoration: initial;
-}
-    .accordion {
-        cursor: pointer;
-        padding: 18px;
-        width: 100%;
-        border: 1px solid #000;
-        border-bottom: none;
-        text-align: left;
-        outline: none;
-        font-size: 15px;
-        transition: 0.4s;
-        max-width: 500px;
-    }
-    .accordion:last-child{
-        border-bottom: 1px solid #000;
-    }
-    .accordion-header {
-        display: flex;
-        padding: 16px;
-        cursor: pointer;
-        
-    }
-    .accordion-icon {
-        width: 16px;
-        color: #C00;
-    }
-    .accordion-title {
-        flex: 1;
-    }
-    .accordion-content {
-        padding: 16px;
-    }
-    .accordion-content {
-        display: none;
-    }
-    .active, .accordion:hover {
-        background-color: #ccc;
-    }
-
-</style>
 
 <script>
   const accordionHeader = document.getElementsByClassName('accordion-header');
