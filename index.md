@@ -21,14 +21,89 @@
             <div class="about-content">
                 <div class="column right about-img" style="padding: 20px; border-radius: 10px;">
                     <div class="text">He is a Passionate <span class="typing-2"></span></div>
-                    <p>A self taught programmer who is a Passionate contributor towards communities, Open Source & Hackathons, Who is Pursuing Knowledge to excel in future endeavor and helping people to enhance there learnings through providing them with practical experience and Knowledge. He is an Author at <b>freecodecamp.org</b>'s Publications. He is currently an 162nd event ambassador at <b>deeplearning.ai</b> in the world and also a Mozilla Fest Facilitator. He is a founder, Organiser and a Speaker at Programmers Universal Group <b>( official website:- https://www.pugroups.in )</b>b>. He is an official volunteer at Google Developer Group Chandigarh, Progate and Tensorflow User group Chandigarh. He is professionally a programmer, front end Web developer and an Artist. He is also a Youtuber where He shares his knowledge with everyone. He is also an open source contributor and Google Crowdsource Top contributor. He has also done many contributions in various communities. He was also selected as a share captain at Google Educator Group Ahemdabad and Pune. He was also in the list of top 10 Campus Ambassador at Developer Student Clubs Week of Wonders ( a week long national event ).</p>
+                    <p>A self taught programmer who is a Passionate contributor towards communities, Open Source & Hackathons, Who is Pursuing Knowledge to excel in            future endeavor and helping people to enhance there learnings through providing them with practical experience and Knowledge. He is an Author at <b>freecodecamp.org</b>'s Publications. He is currently an 162nd event ambassador at <b>deeplearning.ai</b> in the world and also a Mozilla Fest Facilitator. He is a founder, Organiser and a Speaker at Programmers Universal Group <b>( official website:- https://www.pugroups.in )</b>b>. He is an official volunteer at Google Developer Group Chandigarh, Progate and Tensorflow User group Chandigarh. He is professionally a programmer, front end Web developer and an Artist. He is also a Youtuber where He shares his knowledge with everyone. He is also an open source contributor and Google Crowdsource Top contributor. He has also done many contributions in various communities. He was also selected as a share captain at Google Educator Group Ahemdabad and Pune. He was also in the list of top 10 Campus Ambassador at Developer Student Clubs Week of Wonders ( a week long national event ).</p>
                     <a href="#" class="about-img">Download Resume</a>
                 </div>
             </div>
         </div>
     </section>
 
- 
+  <!-- skills section start -->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">My skills</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">My creative skills & experiences.</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ratione error est recusandae consequatur, iusto illum deleniti quidem impedit, quos quaerat quis minima sequi. Cupiditate recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam alias quaerat? Quasi hic quidem illum. Ad delectus natus aut hic explicabo minus quod.</p>
+                    <a href="#" class="about-img">Read more</a>
+                </div>
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>HTML</span>
+                            <span>100%</span>
+                        </div>
+                        <div class="line html"></div>
+			<div class="bars">
+                        <div class="info">
+                            <span>CSS</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line css"></div>
+		        <div class="bars">
+                        <div class="info">
+                            <span>Python</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="line py"></div>
+			<div class="bars">
+                        <div class="info">
+                            <span>Git & Github</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="line opensource"></div>
+		        <div class="bars">
+                        <div class="info">
+                            <span>BootStrap</span>
+                            <span>100%</span>
+                        </div>
+                        <div class="line html"></div>
+			<div class="bars">
+                        <div class="info">
+                            <span>Tailwind CSS</span>
+                            <span>100%</span>
+                        </div>
+                        <div class="line html"></div>
+			<div class="bars">
+                        <div class="info">
+                            <span>Adobe Photoshop & Illustrator</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line adpi"></div>
+			<div class="bars">
+                        <div class="info">
+                            <span>Cloud Computing</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="line cc"></div>
+			<div class="bars">
+                        <div class="info">
+                            <span>Artificial Intelligence</span>
+                            <span>25%</span>
+                        </div>
+                        <div class="line ai"></div>
+			<div class="bars">
+                        <div class="info">
+                            <span>Blender</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="line bld"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 <style>
     .header {
