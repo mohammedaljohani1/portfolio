@@ -1,35 +1,4 @@
-
- <nav class="navbar">
-        <div class="max-width">
-            <div class="logo"><a href="#" class="hire about-img" style="padding: 20px; border-radius: 10px;">Mohammmed <span>Alijohani</span></a></div>
-            <ul class="menu about-img" style="padding: 20px; border-radius: 10px;">
-                <li><a href="#home" class="menu-btn hire">Home</a></li>
-                <li><a href="#about" class="menu-btn hire">About</a></li>
-                <li><a href="#services" class="menu-btn hire">Services</a></li>
-                <li><a href="#skills" class="menu-btn hire">Skills</a></li>
-                <li><a href="#teams" class="menu-btn hire">Testimonials</a></li>
-                <li><a href="#contact" class="menu-btn hire">Contact</a></li>
-            </ul>
-            <div class="menu-btn">
-                <i class="fas fa-bars"></i>
-            </div>
-        </div>
-    </nav>
-    <!-- about section -->
-    <section class="about" id="about">
-        <div class="max-width">
-            <h2 class="title">About Me</h2>
-            <div class="about-content">
-                <div class="column right about-img" style="padding: 20px; border-radius: 10px;">
-                    <div class="text">He is a Passionate <span class="typing-2"></span></div>
-                    <p>A self taught programmer who is a Passionate contributor towards communities, Open Source & Hackathons, Who is Pursuing Knowledge to excel in future endeavor and helping people to enhance there learnings through providing them with practical experience and Knowledge. He is an Author at <b>freecodecamp.org</b>'s Publications. He is currently an 162nd event ambassador at <b>deeplearning.ai</b> in the world and also a Mozilla Fest Facilitator. He is a founder, Organiser and a Speaker at Programmers Universal Group <b>( official website:- https://www.pugroups.in )</b>b>. He is an official volunteer at Google Developer Group Chandigarh, Progate and Tensorflow User group Chandigarh. He is professionally a programmer, front end Web developer and an Artist. He is also a Youtuber where He shares his knowledge with everyone. He is also an open source contributor and Google Crowdsource Top contributor. He has also done many contributions in various communities. He was also selected as a share captain at Google Educator Group Ahemdabad and Pune. He was also in the list of top 10 Campus Ambassador at Developer Student Clubs Week of Wonders ( a week long national event ).</p>
-                    <a href="#" class="about-img">Download Resume</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-  <style>
+ <style>
  /* navbar styling */
 .navbar{
     padding: 30px 0;
@@ -74,6 +43,37 @@
     display: none;
 }
 </style>
+ 
+ <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#" class="hire about-img" style="padding: 20px; border-radius: 10px;">Mohammmed <span>Alijohani</span></a></div>
+            <ul class="menu about-img" style="padding: 20px; border-radius: 10px;">
+                <li><a href="#home" class="menu-btn hire">Home</a></li>
+                <li><a href="#about" class="menu-btn hire">About</a></li>
+                <li><a href="#services" class="menu-btn hire">Services</a></li>
+                <li><a href="#skills" class="menu-btn hire">Skills</a></li>
+                <li><a href="#teams" class="menu-btn hire">Testimonials</a></li>
+                <li><a href="#contact" class="menu-btn hire">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <!-- about section -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About Me</h2>
+            <div class="about-content">
+                <div class="column right about-img" style="padding: 20px; border-radius: 10px;">
+                    <div class="text">He is a Passionate <span class="typing-2"></span></div>
+                    <p>A self taught programmer who is a Passionate contributor towards communities, Open Source & Hackathons, Who is Pursuing Knowledge to excel in future endeavor and helping people to enhance there learnings through providing them with practical experience and Knowledge. He is an Author at <b>freecodecamp.org</b>'s Publications. He is currently an 162nd event ambassador at <b>deeplearning.ai</b> in the world and also a Mozilla Fest Facilitator. He is a founder, Organiser and a Speaker at Programmers Universal Group <b>( official website:- https://www.pugroups.in )</b>b>. He is an official volunteer at Google Developer Group Chandigarh, Progate and Tensorflow User group Chandigarh. He is professionally a programmer, front end Web developer and an Artist. He is also a Youtuber where He shares his knowledge with everyone. He is also an open source contributor and Google Crowdsource Top contributor. He has also done many contributions in various communities. He was also selected as a share captain at Google Educator Group Ahemdabad and Pune. He was also in the list of top 10 Campus Ambassador at Developer Student Clubs Week of Wonders ( a week long national event ).</p>
+                    <a href="#" class="about-img">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
  
 <section id="about"></section>
 <style>
