@@ -1,5 +1,9 @@
-
- <nav class="navbar">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+	<nav class="navbar">
         <div class="max-width">
             <div class="logo"><a href="#" class="hire about-img" style="padding: 20px; border-radius: 10px;">Mohammmed <span>Alijohani</span></a></div>
             <ul class="menu about-img" style="padding: 20px; border-radius: 10px;">
@@ -15,6 +19,9 @@
             </div>
         </div>
     </nav>
+</body>
+</html>
+ 
     <section id="blank"></section>
     <section class="about" id="about">
         <div class="max-width">
