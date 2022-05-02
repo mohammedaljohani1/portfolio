@@ -8,7 +8,7 @@
 }
 .navbar .menu li .hire{
     display: block;
-    color: #fff;
+    color: crimson;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
