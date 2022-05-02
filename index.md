@@ -15,6 +15,7 @@
             </div>
         </div>
     </nav>
+    <section id="blank"></section>
     <section class="about" id="about">
         <div class="max-width">
             <h2 class="title">About Me</h2>
