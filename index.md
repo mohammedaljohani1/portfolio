@@ -5,8 +5,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width">
-<script src="https://kit.fontawesome.com/a076d05399.js"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <title>My Portfolio</title>
 <style>
 /* Style the Navbar */
@@ -254,28 +252,22 @@
     color: crimson;
     background: none;
 }
-
-
 </style>
 </head>
 <body>
-	<nav class="navbar">
-        <div class="max-width">
+    <nav class="navbar">
+        <div>
             <div class="logo"><a href="#" class="hire about-img" style="padding: 20px; border-radius: 10px;">Mohammed <span>Aljohani</span></a></div>
             <ul class="menu about-img" style="padding: 20px; border-radius: 10px;">
                 <li><a href="#home" class="menu-btn hire">Home</a></li>
-		    <li><a href="#about" class="menu-btn hire">About</a></li>
+		        <li><a href="#about" class="menu-btn hire">About</a></li>
                 <li><a href="#skills" class="menu-btn hire">Skills</a></li>
                 <li><a href="#work-experience" class="menu-btn hire">Work Experience</a></li>
-		 <li><a href="#education" class="menu-btn hire">Education</a></li>
+		        <li><a href="#education" class="menu-btn hire">Education</a></li>
                 <li><a href="#contact" class="menu-btn hire">Contact</a></li>
             </ul>
-            <div class="menu-btn">
-                <i class="fas fa-bars"></i>
-            </div>
         </div>
     </nav>
-	<section id="blank"></section>
 	<section id=counter>
     <div>Portfolio Views:</div>
     <div class="view-btn"></div>
@@ -306,7 +298,7 @@
     </section>
 	<!-- skills section start -->
     <section class="skills" id="skills">
-        <div class="max-width">
+        <div>
             <h2 class="title">My skills</h2>
             <div class="skills-content">
                 <div class="column left">
@@ -314,61 +306,48 @@
                     <p>Hello! My name is Mohammed Aljohani and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!</p>
                 </div>
                 <div class="column right">
-                    <div class="bars">
-                        <div class="info">
-                            <span>HTML</span>
-                            <span>100%</span>
+                        <div class="bars">
+                            <div class="info">
+                                <span>HTML</span>
+                                <span>100%</span>
+                            </div>
                         </div>
                         <div class="line html"></div>
-			<div class="bars">
-                        <div class="info">
-                            <span>CSS</span>
-                            <span>80%</span>
-                        </div>
+			            <div class="bars">
+                            <div class="info">
+                                <span>CSS</span>
+                                <span>80%</span>
+                            </div>
+                         </div>
                         <div class="line css"></div>
-		        <div class="bars">
-                        <div class="info">
-                            <span>Python</span>
-                            <span>70%</span>
+		                <div class="bars">
+                            <div class="info">
+                                <span>Python</span>
+                                <span>70%</span>
+                            </div>
                         </div>
                         <div class="line py"></div>
-			<div class="bars">
-                        <div class="info">
-                            <span>Git & Github</span>
-                            <span>75%</span>
-                        </div>
-                        <div class="line opensource"></div>
-		        <div class="bars">
-                        <div class="info">
-                            <span>BootStrap</span>
-                            <span>100%</span>
+		                <div class="bars">
+                            <div class="info">
+                                <span>BootStrap</span>
+                                <span>100%</span>
+                            </div>
                         </div>
                         <div class="line html"></div>
-			<div class="bars">
+			            <div class="bars">
                         <div class="info">
-                            <span>Tailwind CSS</span>
-                            <span>100%</span>
-                        </div>
-                        <div class="line html"></div>
-			<div class="bars">
-                        <div class="info">
-                            <span>Adobe Photoshop & Illustrator</span>
-                            <span>80%</span>
-                        </div>
-                        <div class="line adpi"></div>
-			<div class="bars">
-                        <div class="info">
-                            <span>Cloud Computing</span>
+                            <span>Node js</span>
                             <span>50%</span>
                         </div>
+                        </div>
                         <div class="line cc"></div>
-			<div class="bars">
+			            <div class="bars">
                         <div class="info">
                             <span>Artificial Intelligence</span>
                             <span>25%</span>
                         </div>
                         <div class="line ai"></div>
-			<div class="bars">
+			            <div class="bars">
                         <div class="info">
                             <span>React JS</span>
                             <span>50%</span>
@@ -519,15 +498,3 @@ for (let i = 0; i < accordionHeader.length; i++) {
 </body>
 </html>
  
-    
-
-  
-
-
-
-   
-   
-
-
-
-
