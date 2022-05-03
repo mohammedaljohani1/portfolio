@@ -4,7 +4,6 @@
 <title>My Portfolio</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="description" content="">
 <meta name="viewport" content="width=device-width">
 <style>
 /* Style the Navbar */
@@ -76,15 +75,15 @@
 /* skills section styling */
 
 
-.skills .skills-content .left .text{
+.skills .skills-section .left .text{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
 }
-.skills .skills-content .left p{
+.skills .skills-section .left p{
     text-align: justify;
 }
-.skills .skills-content .left a{
+.skills .skills-section .left a{
     display: inline-block;
     background: crimson;
     color: #fff;
@@ -96,30 +95,30 @@
     border: 2px solid crimson;
     transition: all 0.3s ease;
 }
-.skills .skills-content .left a:hover{
+.skills .skills-section .left a:hover{
     color: crimson;
     background: none;
 }
-.skills .skills-content .right .bars{
+.skills .skills-section .right .bars{
     margin-bottom: 15px;
 }
-.skills .skills-content .right .info{
+.skills .skills-section .right .info{
     display: flex;
     margin-bottom: 5px;
     align-items: center;
     justify-content: space-between;
 }
-.skills .skills-content .right span{
+.skills .skills-section .right span{
     font-weight: 500;
     font-size: 18px;
 }
-.skills .skills-content .right .line{
+.skills .skills-section .right .line{
     height: 5px;
     width: 100%;
     background: lightgrey;
     position: relative;
 }
-.skills .skills-content .right .line::before{
+.skills .skills-section .right .line::before{
     content: "";
     position: absolute;
     height: 100%;
@@ -127,28 +126,28 @@
     top: 0;
     background: crimson;
 }
-.skills-content .right .html::before{
+.skills-section .right .html::before{
     width: 100%;
 }
-.skills-content .right .css::before{
+.skills-section .right .css::before{
     width: 80%;
 }
-.skills-content .right .py::before{
+.skills-section .right .py::before{
     width: 70%;
 }
-.skills-content .right .cc::before{
+.skills-section .right .cc::before{
     width: 50%;
 }
-.skills-content .right .opensource::before{
+.skills-section .right .opensource::before{
     width: 75%;
 }
-.skills-content .right .adpi::before{
+.skills-section .right .adpi::before{
     width: 80%;
 }
-.skills-content .right .ai::before{
+.skills-section .right .ai::before{
     width: 25%;
 }
-.skills-content .right .bld::before{
+.skills-section .right .bld::before{
     width: 50%;
 }
 
@@ -280,11 +279,12 @@
       }
       counterContainer.innerHTML = "Views: " + viewCount;
     </script>
+    </section>
     <section class="about" id="about">
         <div class="max-width">
             <h2 class="title">About Me</h2>
             <div class="about-content">
-                <div class="column right about-img" style="padding: 20px; border-radius: 10px;">
+                <div class="column right" style="padding: 20px; border-radius: 10px;">
                     <p>I build highly scalable event driven microservices. I enjoy coding in React, Node, Typescript and Laravel. I have experience deploying applications on serverless architectures using Cloud Functions / Cloud Run. I'm familiar with Pub/Sub, TDD, CICD and Docker on GCP. I excel at trying out solutions, architecting, figuring out technical problems as well as balancing the right tradeoffs and reducing infrastructure costs.</p>
                 </div>
             </div>
@@ -294,7 +294,7 @@
     <section class="skills" id="skills">
         <div>
             <h2 class="title">My skills</h2>
-            <div class="skills-content">
+            <div class="skills-section">
                 <div class="column left">
                     <div class="text">My creative skills & experiences.</div>
                     <p>Hello! My name is Mohammed Aljohani and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!</p>
@@ -350,6 +350,7 @@
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </section>
 <!-- Work experience section start -->
@@ -496,4 +497,15 @@ for (let i = 0; i < accordionHeader.length; i++) {
 </body>
 </html>
  
+    
+
+  
+
+
+
    
+   
+
+
+
+
