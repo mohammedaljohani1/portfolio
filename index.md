@@ -263,7 +263,7 @@
         </div>
     </nav>
 	<section id=counter>
-    <div><h3>Portfolio Views:</h3></div>
+    <div><h2>Portfolio Views:</h2></div>
     <div class="view-btn"></div>
     <script>
       var counterContainer = document.querySelector(".view-btn");
