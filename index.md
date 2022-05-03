@@ -253,7 +253,7 @@
     <nav class="navbar">
         <div>
             <ul class="menu">
-                <li><a href="#home" class="menu-btn hire">Home</a></li>
+                <li><a href="#" class="menu-btn hire">Home</a></li>
 		        <li><a href="#about" class="menu-btn hire">About</a></li>
                 <li><a href="#skills" class="menu-btn hire">Skills</a></li>
                 <li><a href="#work-experience" class="menu-btn hire">Work Experience</a></li>
