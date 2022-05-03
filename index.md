@@ -286,7 +286,6 @@
             <div class="about-content">
                 <div class="column right about-img" style="padding: 20px; border-radius: 10px;">
                     <p>I build highly scalable event driven microservices. I enjoy coding in React, Node, Typescript and Laravel. I have experience deploying applications on serverless architectures using Cloud Functions / Cloud Run. I'm familiar with Pub/Sub, TDD, CICD and Docker on GCP. I excel at trying out solutions, architecting, figuring out technical problems as well as balancing the right tradeoffs and reducing infrastructure costs.</p>
-                    <a href="#" class="about-img">Download Resume</a>
                 </div>
             </div>
         </div>
@@ -430,17 +429,21 @@
                     <p></p>
                     <div class="icons">
                         <div class="row">
-                            <i class="fas fa-user"></i>
                             <div class="info">
                                 <div class="head">Name:</div>
                                 <div class="sub-title">Mohammed Aljohani</div>
                             </div>
                         </div>
                         <div class="row">
-                            <i class="fas fa-map-marker-alt"></i>
                             <div class="info">
                                 <div class="head">Address:</div>
                                 <div class="sub-title">Newyork, USA</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="info">
+                                <div class="head">Github Page:</div>
+                                <div class="sub-title"> <a href="https://github.com/mohammedaljohani1">view my github page</a></div>
                             </div>
                         </div>
                         <div class="row">
@@ -493,15 +496,4 @@ for (let i = 0; i < accordionHeader.length; i++) {
 </body>
 </html>
  
-    
-
-  
-
-
-
    
-   
-
-
-
-
