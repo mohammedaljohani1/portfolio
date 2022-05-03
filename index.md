@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>My Portfolio</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width">
-<title>My Portfolio</title>
 <style>
 /* Style the Navbar */
 .navbar .menu li{
@@ -59,24 +59,20 @@
         background-color: #ccc;
     }
 /* Style the counter */
-        .view-btn {
+    .view-btn {
           display: flex;
           justify-content: center;
           align-items: center;
           flex-direction: column;
-        }
-        /* Styles for website counter container */
-        .view-btn {
-          background-color: #1267e7;
-          height: 50px;
-          width: 180px;
-          font-weight: 900;
-          font-size: 27px;
-          margin-top: 10px;
-          color: white;
-          border-radius: 10px;
-          box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-        }
+    }
+    /* Styles for website counter container */
+.view-btn {
+    background-color: #1267e7;
+     height: 50px; width: 180px;
+     font-weight: 900; font-size: 27px; 
+     margin-top: 10px; color: white;
+     border-radius: 10px; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);        
+}
 /* skills section styling */
 
 
@@ -257,8 +253,7 @@
 <body>
     <nav class="navbar">
         <div>
-            <div class="logo"><a href="#" class="hire about-img" style="padding: 20px; border-radius: 10px;">Mohammed <span>Aljohani</span></a></div>
-            <ul class="menu about-img" style="padding: 20px; border-radius: 10px;">
+            <ul class="menu">
                 <li><a href="#home" class="menu-btn hire">Home</a></li>
 		        <li><a href="#about" class="menu-btn hire">About</a></li>
                 <li><a href="#skills" class="menu-btn hire">Skills</a></li>
@@ -498,3 +493,15 @@ for (let i = 0; i < accordionHeader.length; i++) {
 </body>
 </html>
  
+    
+
+  
+
+
+
+   
+   
+
+
+
+
