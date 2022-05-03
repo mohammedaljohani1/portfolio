@@ -1,6 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<title>My Portfolio</title>
 <style>
 /* Style the Navbar */
 .navbar .menu li{
@@ -250,8 +257,6 @@
 
 
 </style>
-<script src="https://kit.fontawesome.com/a076d05399.js"></script>
- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 <body>
 	<nav class="navbar">
