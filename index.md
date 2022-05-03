@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <title>My Portfolio</title>
 <meta charset="utf-8">
@@ -263,7 +263,7 @@
         </div>
     </nav>
 	<section id=counter>
-    <div>Portfolio Views:</div>
+    <div><h3>Portfolio Views:</h3></div>
     <div class="view-btn"></div>
     <script>
       var counterContainer = document.querySelector(".view-btn");
@@ -458,7 +458,7 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="https://formspree.io/f/mqkgooqj" method="POST">
+                    <form action="#" method="POST">
                         <div class="fields">
                             <div class="field name">
                                 <input type="text" placeholder="Name" name="Name" required>
