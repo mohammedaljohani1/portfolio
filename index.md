@@ -247,12 +247,7 @@
     color: crimson;
     background: none;
 }
-.content {
-  max-width: 900px;
-  margin: 15vh auto;
-  display: none;
-  align-items: flex-start;
-}
+
 
 .testimonial blockquote {
   margin: 10px 10px 0;
