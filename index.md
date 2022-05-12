@@ -247,6 +247,73 @@
     color: crimson;
     background: none;
 }
+.content {
+  max-width: 900px;
+  margin: 15vh auto;
+  display: none;
+  align-items: flex-start;
+}
+
+.testimonial blockquote {
+  margin: 10px 10px 0;
+  background: #efefef;
+  padding: 20px 60px;
+  position: relative;
+  border: none;
+  border-radius: 8px;
+  font-style: italic;
+}
+
+.testimonial blockquote:before,
+.testimonial blockquote:after {
+  content: "\201C";
+  position: absolute;
+  font-size: 80px;
+  line-height: 1;
+  color: #757f9a;
+  font-style: normal;
+}
+
+.testimonial blockquote:before {
+  top: 0;
+  left: 10px;
+}
+
+.testimonial blockquote:after {
+  content: "\201D";
+  right: 10px;
+  bottom: -0.5em;
+}
+
+.testimonial div {
+  width: 0;
+  height: 0;
+  border-left: 0 solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #efefef;
+  margin: 0 0 0 60px;
+}
+
+.testimonial p {
+  margin: 8px 0 0 20px;
+  text-align: left;
+  color: #fff;
+}
+
+  
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-image {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+}
 </style>
 </head>
 <body>
@@ -258,6 +325,7 @@
                 <li><a href="#skills" class="menu-btn hire">Skills</a></li>
                 <li><a href="#work-experience" class="menu-btn hire">Work Experience</a></li>
 		        <li><a href="#education" class="menu-btn hire">Education</a></li>
+		    <li><a href="#testimonial" class="menu-btn hire">Testimonials</a></li>
                 <li><a href="#contact" class="menu-btn hire">Contact</a></li>
             </ul>
         </div>
@@ -422,77 +490,6 @@
 </section>
 <!-- Testimonies section start -->
 <Section  class="testimonial" id="testimonial">
-<style>
-    
-.content {
-  max-width: 900px;
-  margin: 15vh auto;
-  display: none;
-  align-items: flex-start;
-}
-
-.testimonial blockquote {
-  margin: 10px 10px 0;
-  background: #efefef;
-  padding: 20px 60px;
-  position: relative;
-  border: none;
-  border-radius: 8px;
-  font-style: italic;
-}
-
-.testimonial blockquote:before,
-.testimonial blockquote:after {
-  content: "\201C";
-  position: absolute;
-  font-size: 80px;
-  line-height: 1;
-  color: #757f9a;
-  font-style: normal;
-}
-
-.testimonial blockquote:before {
-  top: 0;
-  left: 10px;
-}
-
-.testimonial blockquote:after {
-  content: "\201D";
-  right: 10px;
-  bottom: -0.5em;
-}
-
-.testimonial div {
-  width: 0;
-  height: 0;
-  border-left: 0 solid transparent;
-  border-right: 20px solid transparent;
-  border-top: 20px solid #efefef;
-  margin: 0 0 0 60px;
-}
-
-.testimonial p {
-  margin: 8px 0 0 20px;
-  text-align: left;
-  color: #fff;
-}
-
-  
-
-.user {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.user-image {
-  border-radius: 50%;
-  height: 150px;
-  width: 150px;
-  object-fit: cover;
-}
-
-</style>
 <script>
 function seasonSelector(selectElem) {
   var i = selectElem.selectedIndex;
