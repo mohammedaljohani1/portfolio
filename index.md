@@ -476,7 +476,7 @@ Select a Testimonial:
     
     </div>
 </div>
-<div class="content" id="test2">
+<div class="content" id="test2" style="display: none;">
     <h2>TESTIMONIALS</h2>
     <h1>Nice Things People Have Said</h1>
     <div class="testimonial">
@@ -497,7 +497,7 @@ Select a Testimonial:
     
     </div>
 </div>
-<div class="content" id="test3">
+<div class="content" id="test3" style="display: none;">
     <h2>TESTIMONIALS</h2>
     <h1>Nice Things People Have Said</h1>
     <div class="testimonial">
@@ -518,7 +518,7 @@ Select a Testimonial:
     
     </div>
 </div>
-<div class="content" id="test4">
+<div class="content" id="test4" style="display: none;">
     <h2>TESTIMONIALS</h2>
     <h1>Nice Things People Have Said</h1>
     <div class="testimonial">
