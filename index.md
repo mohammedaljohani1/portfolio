@@ -490,6 +490,104 @@
 </section>
 <!-- Testimonies section start -->
 <Section  class="testimonial" id="testimonial">
+<form>
+
+
+<h2>TESTIMONIALS</h2>
+Select a Testimonial:
+<select id="background" onchange="seasonSelector(this)">
+  <option value="test1">Dylan McGuinty</option>
+  <option value="test2">Amy Longard</option>
+  <option value="test3">Randy Gribben</option>
+  <option value="test4">Brook Thordycraft</option>
+
+</select>
+
+</form>
+<div class="content" id="test1" style="display: block;">
+    <h2>TESTIMONIALS</h2>
+    <h1>Nice Things People Have Said</h1>
+    <div class="testimonial">
+    <blockquote>
+        We hired  Mohammedal Johani to rework the content and design of our website. She has been terrific- collaborative, diligent, honest and professional, offering solutions we had not thought about. We have found that she delivers efficiently and in a timely manner.
+
+        Her work on our website successfully communicates to prospective clients the kind of people and law firm that we are and has brought innumerable clients to our firm through a streamlined and attractive website. I would recommend Annie in a heartbeat.
+    </blockquote>
+    <div></div>
+    <img
+           src="https://randomuser.me/api/portraits/women/40.jpg"
+           alt="user"
+           class="user-image"
+           />
+    <p>
+        Dylan McGuinty Jr., &mdash; Lawyer, McGuinty Law Offices
+    </p>
+    
+    </div>
+</div>
+<div class="content" id="test2">
+    <h2>TESTIMONIALS</h2>
+    <h1>Nice Things People Have Said</h1>
+    <div class="testimonial">
+    <blockquote>
+        Working with  Mohammedal Johani has been a pleasure. Through in-depth questions, she has a knack for hitting the nail on the head with branding requirements first time round, saving valuable time on a lot of back and forth.
+
+        With her skills and natural creativity, she works quickly and efficiently, presenting professional options and offering sound advice to translate the vision in my head into work beyond what I envisioned. I have been thrilled with the results!
+    </blockquote>
+    <div></div>
+    <img
+           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjUsalLkYobfE8NppY4TB37dWmePm5k_GWEw&usqp=CAU"
+           alt="user"
+           class="user-image"
+           />
+    <p>
+        Amy Longard, &mdash; Holistic Nutritionist, Amy Longard
+    </p>
+    
+    </div>
+</div>
+<div class="content" id="test3">
+    <h2>TESTIMONIALS</h2>
+    <h1>Nice Things People Have Said</h1>
+    <div class="testimonial">
+    <blockquote>
+        We engaged  Mohammedal Johani as a consultant to review and critique the design of our website and marketing materials. She has been an excellent source of constructive feedback, and has helped us immensely to communicate our vision with visually compelling materials.
+
+        She understands our business well, asks good questions about our goals, and provides clear and detailed recommendations. I would highly recommend her services to any business wanting to understand and develop their visual brand.
+    </blockquote>
+    <div></div>
+    <img
+           src="https://i.vimeocdn.com/video/710552475-f06d54eaca481bacb4ebbe376c26855e80256837ffaa2eb174bce9bdc85cfbc4-d?mw=1000&mh=563&q=70"
+           alt="user"
+           class="user-image"
+           />
+    <p>
+        Randy Gribben, &mdash; Chief Operating Officer, Ajile Light Industries
+    </p>
+    
+    </div>
+</div>
+<div class="content" id="test4">
+    <h2>TESTIMONIALS</h2>
+    <h1>Nice Things People Have Said</h1>
+    <div class="testimonial">
+    <blockquote>
+        Mohammedal Johani is an amazing designer, and great to work with! I hired her to create a high-quality opt-in offer for my mailing list, and she quickly understood what I was looking for, and how to appeal to my somewhat complex market. She was efficient and supportive, asked great questions that helped me think through my offer, and brought great creativity and insight to the final product.
+
+        I am totally happy with it, and have already gotten good feedback! She also has a great sense of humour! Thanks so much, Annie, it was really a pleasure!
+    </blockquote>
+    <div></div>
+    <img
+           src="https://images.squarespace-cdn.com/content/v1/5b9faa92266c07df82dab53d/1620170470778-KL03FIHM6EM05HHA8P2A/NancyTregunno-vertical%2B-%2BMark%2BPonikvar.jpg"
+           alt="user"
+           class="user-image"
+           />
+    <p>
+        Brook Thordycraft, &mdash;  Family & Workplace Mediator, Brook Thorndycraft Conflict Mediation Services
+    </p>
+    
+    </div>
+</div>
 <script>
 function seasonSelector(selectElem) {
   var i = selectElem.selectedIndex;
