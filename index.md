@@ -420,6 +420,131 @@
     </div>
   </div>
 </section>
+<!-- Testimonies section start -->
+<Section  class="testimonial" id="testimonial">
+<style>
+    
+.content {
+  max-width: 900px;
+  margin: 15vh auto;
+  display: none;
+  align-items: flex-start;
+}
+
+.testimonial blockquote {
+  margin: 10px 10px 0;
+  background: #efefef;
+  padding: 20px 60px;
+  position: relative;
+  border: none;
+  border-radius: 8px;
+  font-style: italic;
+}
+
+.testimonial blockquote:before,
+.testimonial blockquote:after {
+  content: "\201C";
+  position: absolute;
+  font-size: 80px;
+  line-height: 1;
+  color: #757f9a;
+  font-style: normal;
+}
+
+.testimonial blockquote:before {
+  top: 0;
+  left: 10px;
+}
+
+.testimonial blockquote:after {
+  content: "\201D";
+  right: 10px;
+  bottom: -0.5em;
+}
+
+.testimonial div {
+  width: 0;
+  height: 0;
+  border-left: 0 solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #efefef;
+  margin: 0 0 0 60px;
+}
+
+.testimonial p {
+  margin: 8px 0 0 20px;
+  text-align: left;
+  color: #fff;
+}
+
+  
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-image {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+}
+
+</style>
+<script>
+function seasonSelector(selectElem) {
+  var i = selectElem.selectedIndex;
+  if (i < 0) {
+   
+    return;
+  }
+
+  var optionValue = selectElem.options[i].value;
+
+ 
+  if (optionValue === "test1") {
+    document.body.style.backgroundColor = "#33CC99";
+    document.getElementById('test1').style.display = 'block';
+    document.getElementById('test2').style.display = 'none';
+    document.getElementById('test3').style.display = 'none';
+    document.getElementById('test4').style.display = 'none';
+  }
+  else if (!optionValue) {
+    document.getElementById('test1').style.display = 'block';
+  }
+  else if (optionValue === "test2") {
+    document.body.style.backgroundColor = "#FF0066";
+    document.getElementById('test2').style.display = 'block';
+    document.getElementById('test1').style.display = 'none';
+    document.getElementById('test3').style.display = 'none';
+    document.getElementById('test4').style.display = 'none';
+  }
+  else if (optionValue === "test3") {
+    document.body.style.backgroundColor = "#FF9933";
+    document.getElementById('test3').style.display = 'block';
+    document.getElementById('test2').style.display = 'none';
+    document.getElementById('test1').style.display = 'none';
+    document.getElementById('test4').style.display = 'none';
+  }
+  else if (optionValue === "test4") {
+    document.body.style.backgroundColor = "#0099FF";
+    document.getElementById('test4').style.display = 'block';
+    document.getElementById('test2').style.display = 'none';
+    document.getElementById('test3').style.display = 'none';
+    document.getElementById('test1').style.display = 'none';
+  }
+  else {
+    document.write("Something went wrong. Please refresh.");
+  }
+
+
+}
+
+
+</script>
+</section>
 <!-- contact section start -->
     <section class="contact" id="contact">
         <div class="max-width">
